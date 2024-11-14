@@ -1,0 +1,237 @@
+<html>
+ <head>
+  <title>
+   Profile Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #1c1c1c;
+        }
+        .header .left-icons i,
+        .header .right-icons i {
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+        }
+        .profile {
+            text-align: center;
+            padding: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .profile .username {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .profile .handle {
+            color: #888;
+        }
+        .profile .stats {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .profile .stats div {
+            margin: 0 15px;
+            text-align: center;
+        }
+        .profile .stats div span {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .profile .buttons {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .profile .buttons button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .profile .bio {
+            margin: 10px 0;
+        }
+        .profile .tiktok-studio {
+            color: #ff0050;
+        }
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            padding: 10px 0;
+        }
+        .tabs i {
+            font-size: 20px;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .videos .video {
+            width: 33.33%;
+            padding: 5px;
+        }
+        .videos .video img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .videos .video .views {
+            color: white;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background-color: #1c1c1c;
+            border-top: 1px solid #333;
+        }
+        .footer i {
+            font-size: 24px;
+            color: white;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <div class="left-icons">
+    <i class="fas fa-arrow-left">
+    </i>
+   </div>
+   <div class="right-icons">
+    <i class="fas fa-ellipsis-v">
+    </i>
+   </div>
+  </div>
+  <div class="profile">
+   <img alt="Profile picture" height="100" src="https://storage.googleapis.com/a1aa/image/HjiFHwmgIuJzFBpRZzjZdeiUHeWzJwYwsRjc222wiA4YKfVnA.jpg" width="100"/>
+   <div class="username">
+    FIONIX
+   </div>
+   <div class="handle">
+    @fionix_oconner
+   </div>
+   <div class="stats">
+    <div>
+     <span>
+      109
+     </span>
+     Mengikuti
+    </div>
+    <div>
+     <span>
+      24
+     </span>
+     Pengikut
+    </div>
+    <div>
+     <span>
+      79
+     </span>
+     Suka
+    </div>
+   </div>
+   <div class="buttons">
+    <button>
+     Edit profil
+    </button>
+    <button>
+     Bagikan profil
+    </button>
+    <button>
+     <i class="fas fa-user-plus">
+     </i>
+    </button>
+   </div>
+   <div class="bio">
+    no bio yet!
+   </div>
+   <div class="tiktok-studio">
+    TikTok Studio
+   </div>
+  </div>
+  <div class="tabs">
+   <i class="fas fa-th-large">
+   </i>
+   <i class="fas fa-lock">
+   </i>
+   <i class="fas fa-heart">
+   </i>
+   <i class="fas fa-bookmark">
+   </i>
+  </div>
+  <div class="videos">
+   <div class="video">
+    <img alt="Video thumbnail 1" height="200" src="https://storage.googleapis.com/a1aa/image/x3MF823uUIrzHtq1BI6OKb2lWS1FD4f2gjeW2NbB5PsbKfVnA.jpg" width="200"/>
+    <div class="views">
+     181
+    </div>
+   </div>
+   <div class="video">
+    <img alt="Video thumbnail 2" height="200" src="https://storage.googleapis.com/a1aa/image/CfEvnrDwSb3OBilewvasrbll0wzabSYB9nOzS7wt6mKVKfVnA.jpg" width="200"/>
+    <div class="views">
+     137
+    </div>
+   </div>
+   <div class="video">
+    <img alt="Video thumbnail 3" height="200" src="https://storage.googleapis.com/a1aa/image/rsVWPD4fp23afUnIvfXbdabWpIrfjlgwelUcFR8Rnb2NT5XdC.jpg" width="200"/>
+    <div class="views">
+     4,387
+    </div>
+   </div>
+   <div class="video">
+    <img alt="Video thumbnail 4" height="200" src="https://storage.googleapis.com/a1aa/image/711RnfZesspIYkqa6t2qNj5hiIFSH3nhkGaZAt5NE3flUerOB.jpg" width="200"/>
+    <div class="views">
+     345
+    </div>
+   </div>
+   <div class="video">
+    <img alt="Video thumbnail 5" height="200" src="https://storage.googleapis.com/a1aa/image/4ywuPKASm2ZJKdziPSGwOUIdJYIyaeg0bn5fYZYk0PAWKfVnA.jpg" width="200"/>
+    <div class="views">
+     373
+    </div>
+   </div>
+   <div class="video">
+    <img alt="Video thumbnail 6" height="200" src="https://storage.googleapis.com/a1aa/image/p1Ahusth7wJcNxD5BKztIai9i5hVW9BuZWtVQqR2seQKlfqTA.jpg" width="200"/>
+   </div>
+  </div>
+  <div class="footer">
+   <i class="fas fa-home">
+   </i>
+   <i class="fas fa-store">
+   </i>
+   <i class="fas fa-plus-circle">
+   </i>
+   <i class="fas fa-inbox">
+   </i>
+   <i class="fas fa-user">
+   </i>
+  </div>
+ </body>
+</html>
